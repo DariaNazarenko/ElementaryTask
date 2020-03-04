@@ -1,0 +1,11 @@
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\bin\Debug\netcoreapp3.1\ElementaryTask.exe
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\bin\Debug\netcoreapp3.1\ElementaryTask.deps.json
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\bin\Debug\netcoreapp3.1\ElementaryTask.runtimeconfig.json
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\bin\Debug\netcoreapp3.1\ElementaryTask.runtimeconfig.dev.json
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\bin\Debug\netcoreapp3.1\ElementaryTask.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\bin\Debug\netcoreapp3.1\ElementaryTask.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\obj\Debug\netcoreapp3.1\ElementaryTask.csprojAssemblyReference.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\obj\Debug\netcoreapp3.1\ElementaryTask.AssemblyInfoInputs.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\obj\Debug\netcoreapp3.1\ElementaryTask.AssemblyInfo.cs
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\obj\Debug\netcoreapp3.1\ElementaryTask.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\obj\Debug\netcoreapp3.1\ElementaryTask.pdb

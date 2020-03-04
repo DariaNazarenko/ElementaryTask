@@ -1,0 +1,11 @@
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\TriangleTask.exe
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\TriangleTask.deps.json
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\TriangleTask.runtimeconfig.json
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\TriangleTask.runtimeconfig.dev.json
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\TriangleTask.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\TriangleTask.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.1\TriangleTask.csprojAssemblyReference.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.1\TriangleTask.AssemblyInfoInputs.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.1\TriangleTask.AssemblyInfo.cs
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.1\TriangleTask.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.1\TriangleTask.pdb
