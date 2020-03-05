@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnvelopeTask", "ElementaryTask\EnvelopeTask.csproj", "{2A068C20-674A-4142-8696-8462577D6DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnvelopeTask", "ElementaryTask\EnvelopeTask.csproj", "{2A068C20-674A-4142-8696-8462577D6DE2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleTask", "TriangleTask\TriangleTask.csproj", "{02389209-9A22-473E-8B2B-C565609AF2D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TriangleTask", "TriangleTask\TriangleTask.csproj", "{02389209-9A22-473E-8B2B-C565609AF2D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileParserTask", "FileParserTask\FileParserTask.csproj", "{21D2B30E-FE57-483B-A83E-DDB54FD3FD59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{02389209-9A22-473E-8B2B-C565609AF2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02389209-9A22-473E-8B2B-C565609AF2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02389209-9A22-473E-8B2B-C565609AF2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D2B30E-FE57-483B-A83E-DDB54FD3FD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D2B30E-FE57-483B-A83E-DDB54FD3FD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D2B30E-FE57-483B-A83E-DDB54FD3FD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D2B30E-FE57-483B-A83E-DDB54FD3FD59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

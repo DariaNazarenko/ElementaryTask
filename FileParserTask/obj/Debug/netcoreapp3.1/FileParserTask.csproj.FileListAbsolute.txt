@@ -1,0 +1,11 @@
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\bin\Debug\netcoreapp3.1\FileParserTask.exe
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\bin\Debug\netcoreapp3.1\FileParserTask.deps.json
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\bin\Debug\netcoreapp3.1\FileParserTask.runtimeconfig.json
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\bin\Debug\netcoreapp3.1\FileParserTask.runtimeconfig.dev.json
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\bin\Debug\netcoreapp3.1\FileParserTask.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\bin\Debug\netcoreapp3.1\FileParserTask.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\obj\Debug\netcoreapp3.1\FileParserTask.csprojAssemblyReference.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\obj\Debug\netcoreapp3.1\FileParserTask.AssemblyInfoInputs.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\obj\Debug\netcoreapp3.1\FileParserTask.AssemblyInfo.cs
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\obj\Debug\netcoreapp3.1\FileParserTask.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\obj\Debug\netcoreapp3.1\FileParserTask.pdb

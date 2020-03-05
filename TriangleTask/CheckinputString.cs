@@ -7,12 +7,24 @@ namespace TriangleTask
 {
     class CheckInputString
     {
-        public string[] GetAppropriateStringArray(string str)
+        private string inputString;
+        public CheckInputString(string str)
         {
-            string pattern = @"\s+";
-            Regex regex = new Regex(pattern);
-            str = regex.Replace(str, string.Empty);
-            return str.Split(',');
+            inputString = str;
+        }
+        public string[] GetAppropriateStringArray()
+        {
+            string SpacePattern = @"\s+";
+            Regex regex = new Regex(SpacePattern);
+            inputString = regex.Replace(inputString, string.Empty);
+            string DotPattern = @"\.";
+            regex = new Regex(DotPattern);
+            string[] StringArray = inputString.Split(',');
+            for (int i = 0; i < StringArray.Length; i++)
+            {
+                StringArray[i] = regex.Replace(StringArray[i], ",");
+            }
+            return StringArray;
         }
     }
 }

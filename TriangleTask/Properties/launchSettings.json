@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TriangleTask": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Study\\Курсы\\SoftServe\\TaskFileParser.txt"
+    }
+  }
+}

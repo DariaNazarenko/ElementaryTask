@@ -9,7 +9,7 @@ namespace EnvelopeTask
 
         static int Main(string[] args)
         {
-            var sides = new ConvertToDouble().ToDoubleArray(args);
+            var sides = new DoubleArray().ToDoubleArray(args);
             if (sides != null)
             {
                 Envelope env1 = new Envelope(sides[0], sides[1]);
