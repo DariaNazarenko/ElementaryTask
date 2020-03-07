@@ -21,6 +21,7 @@ namespace EnvelopeTask
 					Console.WriteLine(e.Message);
 				}
 			}
+
             return doubleArray;
         }
 	}

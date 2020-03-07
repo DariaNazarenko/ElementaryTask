@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace FileParserTask
 {
@@ -6,11 +7,18 @@ namespace FileParserTask
     {
         static void Main(string[] args)
         {
-            var path = Console.ReadLine();
-            FileWorker f = new FileWorker(path);
-            Console.WriteLine(f.CountStringEnterance("hellow"));
-            f.ReplaceString("hellow", "HI");
-            Console.WriteLine(f.CountStringEnterance("hellow"));
+            var path = @args[0];
+            if (new Validation().CanFindFile(path))
+            {
+                FileWorker f = new FileWorker(path);
+                Console.WriteLine(f.CountStringEnterance("hellow"));
+                f.ReplaceString("hellow", "HI");
+                Console.WriteLine(f.CountStringEnterance("HI"));
+            }
+            else
+            {
+                Console.WriteLine($"Can`t find file {path}.");
+            }
         }
     }
 }

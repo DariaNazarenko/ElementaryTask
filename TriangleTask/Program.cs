@@ -9,8 +9,9 @@ namespace TriangleTask
     {
         static void Help()
         {
-            Console.WriteLine("Use . for double values and , as delimetr");
+            Console.WriteLine("Use . for double values and , as delimetr.\nEnter <name>, <side1>, <side2>, <side3>.");
         }
+
         static void Main(string[] args)
         {
             Help();
@@ -29,13 +30,13 @@ namespace TriangleTask
                     Help();
                 }
                 Console.WriteLine("Want more?");
-                answer = Console.ReadLine();
+                answer = Console.ReadLine().ToLower();
             } while (answer == "y");
 
             var orderedTriangles = t.OrderByDescending(el => el.Area);
             foreach (var item in orderedTriangles)
             {
-                Console.WriteLine(item.ToString());
+                Console.WriteLine(item);
             }
         }
     }

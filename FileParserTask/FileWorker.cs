@@ -17,7 +17,7 @@ namespace FileParserTask
         {
             var file = StringFromFile();
             var text = file.Result;
-            int count=0;
+            int count = 0;
             try
             {
                 count = new Regex(str).Matches(text).Count;
@@ -26,6 +26,7 @@ namespace FileParserTask
             {
                 Console.WriteLine(e.Message);
             }
+
             return count;
         }
 
@@ -49,19 +50,10 @@ namespace FileParserTask
 
         private async Task<string> StringFromFile()
         {
-            string textFromFile=null;
-            try
+            using (StreamReader sr = new StreamReader(FilePath))
             {
-                using (StreamReader sr = new StreamReader(FilePath))
-                {
-                    return await sr.ReadToEndAsync();
-                }
+                return await sr.ReadToEndAsync();
             }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-            return textFromFile;
         }
     }
 }

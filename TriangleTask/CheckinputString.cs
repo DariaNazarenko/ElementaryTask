@@ -24,6 +24,7 @@ namespace TriangleTask
             {
                 StringArray[i] = regex.Replace(StringArray[i], ",");
             }
+
             return StringArray;
         }
     }
