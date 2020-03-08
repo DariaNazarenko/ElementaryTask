@@ -1,0 +1,11 @@
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\bin\Debug\netcoreapp3.1\ChessTask.exe
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\bin\Debug\netcoreapp3.1\ChessTask.deps.json
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\bin\Debug\netcoreapp3.1\ChessTask.runtimeconfig.json
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\bin\Debug\netcoreapp3.1\ChessTask.runtimeconfig.dev.json
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\bin\Debug\netcoreapp3.1\ChessTask.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\bin\Debug\netcoreapp3.1\ChessTask.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\obj\Debug\netcoreapp3.1\ChessTask.csprojAssemblyReference.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\obj\Debug\netcoreapp3.1\ChessTask.AssemblyInfoInputs.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\obj\Debug\netcoreapp3.1\ChessTask.AssemblyInfo.cs
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\obj\Debug\netcoreapp3.1\ChessTask.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\obj\Debug\netcoreapp3.1\ChessTask.pdb

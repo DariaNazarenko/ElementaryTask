@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ChessTask": {
+      "commandName": "Project",
+      "commandLineArgs": "2 4"
+    }
+  }
+}
