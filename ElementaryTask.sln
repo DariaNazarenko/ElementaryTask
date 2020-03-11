@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessTask", "ChessTask\Ches
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LuckyTicketsTask", "LuckyTicketsTask\LuckyTicketsTask.csproj", "{E4A6362A-BC88-4613-A914-895CEFE91D9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SequenceTask", "SequenceTask\SequenceTask.csproj", "{CAA166D2-831C-460B-88FB-38F6BC0CFA77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SequenceTask", "SequenceTask\SequenceTask.csproj", "{CAA166D2-831C-460B-88FB-38F6BC0CFA77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WriteNumberTask", "WriteNumberTask\WriteNumberTask.csproj", "{C7C22262-E451-48F8-8E5C-57B3C3E175E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WriteNumberTask", "WriteNumberTask\WriteNumberTask.csproj", "{C7C22262-E451-48F8-8E5C-57B3C3E175E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

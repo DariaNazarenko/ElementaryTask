@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FileParserTask.Logic;
+using FileParserTask.Validation;
+using System;
 using System.IO;
 
 namespace FileParserTask
@@ -8,7 +10,7 @@ namespace FileParserTask
         static void Main(string[] args)
         {
             var path = @args[0];
-            if (new Validation().CanFindFile(path))
+            if (new Valid().CanFindFile(path))
             {
                 FileWorker f = new FileWorker(path);
                 Console.WriteLine(f.CountStringEnterance("hellow"));

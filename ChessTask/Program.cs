@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ChessTask.Logic;
+using ChessTask.Validation;
+using System;
 
 namespace ChessTask
 {
@@ -6,9 +8,18 @@ namespace ChessTask
     {
         static void Main(string[] args)
         {
-            Board board = new Validation(args).GetBoard();
-            var cells = board.GetCells();
-            board.Draw(cells);
+            try
+            {
+                var array = new Valid(args).GetInegerArray();
+                Board b = new Board(array[0], array[1]);
+                b.DrawBoard(b.SetBoard());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
+           
         }
     }
 }

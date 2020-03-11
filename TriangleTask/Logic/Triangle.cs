@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Text;
 
-namespace TriangleTask
+namespace TriangleTask.Logic
 {
     class Triangle : IGeometrical
     {

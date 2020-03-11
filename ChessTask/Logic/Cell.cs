@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ChessTask
+namespace ChessTask.Logic
 {
-    class Cell
+    abstract class Cell
     {
         public char Value { get; private set; }
+
         public Cell(char value)
         {
             Value = value;

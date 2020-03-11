@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-namespace FileParserTask
+namespace FileParserTask.Validation
 {
-    class Validation
+    class Valid
     {
         public bool CanFindFile(string filePath)
         {

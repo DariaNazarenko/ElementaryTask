@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace TriangleTask
+namespace TriangleTask.Logic
 {
     interface IGeometrical
     {

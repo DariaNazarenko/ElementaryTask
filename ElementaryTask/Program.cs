@@ -1,4 +1,6 @@
-﻿using System;
+﻿using EnvelopeTask.Logic;
+using EnvelopeTask.Validation;
+using System;
 using System.Linq;
 
 namespace EnvelopeTask
@@ -9,7 +11,16 @@ namespace EnvelopeTask
 
         static int Main(string[] args)
         {
-            var sides = new DoubleArray().ToDoubleArray(args);
+            double[] sides=null;
+            try
+            {
+                sides = new DoubleArray().ToDoubleArray(args);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
             if (sides != null)
             {
                 Envelope env1 = new Envelope(sides[0], sides[1]);

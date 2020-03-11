@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace EnvelopeTask
+namespace EnvelopeTask.Logic
 {
     class CheckSizeMethods
     {
