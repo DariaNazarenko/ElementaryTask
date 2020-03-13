@@ -1,17 +1,19 @@
-﻿using System;
+﻿using SequenceTask.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SequenceTask
+namespace SequenceTask.Models
 {
     class Sequence
     {
+        public ISequent Sequent { private get; set; }
+
         public Sequence( ISequent seq)
         {
             Sequent = seq;
         }
 
-        public ISequent Sequent { private get; set; }
         public IList<int> Algorithm()
         {
             var seq = Sequent.Algorithm();

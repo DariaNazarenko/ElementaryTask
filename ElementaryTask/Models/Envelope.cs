@@ -2,7 +2,7 @@
 using System.Text;
 using System.Collections.Generic;
 
-namespace EnvelopeTask.Logic
+namespace EnvelopeTask.Models
 {
     class Envelope
     {

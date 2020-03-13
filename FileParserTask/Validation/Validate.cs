@@ -5,7 +5,7 @@ using System.IO;
 
 namespace FileParserTask.Validation
 {
-    class Valid
+    class Validate
     {
         public bool CanFindFile(string filePath)
         {

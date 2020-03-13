@@ -1,23 +1,27 @@
-﻿using System;
+﻿using ChessTask.Contracts;
+using ChessTask.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ChessTask.Logic
 {
-    class Board
+    class Board : IDrawable
     {
         private int width;
         private int height;
+        private Cell[,] board;
 
         public Board(int width, int height)
         {
             this.width = width;
             this.height = height;
+            board = SetBoard();
         }
 
-        public Cell[,] SetBoard()
+        private Cell[,] SetBoard()
         {
-            Cell[,] board = new Cell[height, width];
+            board = new Cell[height, width];
             for (int i = 0; i < height; i++)
             {
                 for (int j = 0; j < width; j++)
@@ -50,7 +54,7 @@ namespace ChessTask.Logic
             return board;
         }
 
-        public void DrawBoard(Cell[,] board)
+        public void Draw()
         {
             for (int i = 0; i < height; i++)
             {
@@ -60,7 +64,6 @@ namespace ChessTask.Logic
                 }
                 Console.WriteLine();
             }
-
         }
     }
 }

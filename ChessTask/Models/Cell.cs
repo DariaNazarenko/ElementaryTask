@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ChessTask.Logic
+namespace ChessTask.Models
 {
     abstract class Cell
     {

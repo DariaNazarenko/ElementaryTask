@@ -10,16 +10,21 @@ namespace ChessTask
         {
             try
             {
-                var array = new Valid(args).GetInegerArray();
-                Board b = new Board(array[0], array[1]);
-                b.DrawBoard(b.SetBoard());
+                var array = new Validate(args).GetInegerArray();
+                if (array != null)
+                {
+                    Board b = new Board(array[0], array[1]);
+                    b.Draw();
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input string");
+                }
             }
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
-            }
-            
-           
+            }       
         }
     }
 }

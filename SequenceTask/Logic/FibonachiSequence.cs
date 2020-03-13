@@ -1,8 +1,9 @@
-﻿using System;
+﻿using SequenceTask.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SequenceTask
+namespace SequenceTask.Logic
 {
     class FibonachiSequence : ISequent
     {
@@ -18,8 +19,8 @@ namespace SequenceTask
         public IList<int> Algorithm()
         {
             IList<int> sequence = new List<int>();
-            int j = 1;
-            for (int i = 1; i <= end; i += j)
+            int j = start;
+            for (int i = start; i <= end; i += j)
             {
                 sequence.Add(i);
                 j = i - j;

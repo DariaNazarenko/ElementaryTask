@@ -1,8 +1,9 @@
-﻿using System;
+﻿using SequenceTask.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SequenceTask
+namespace SequenceTask.Logic
 {
     class SqrtSequence : ISequent
     {

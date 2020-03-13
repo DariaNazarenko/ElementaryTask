@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "ChessTask": {
+    "SequenceTask": {
       "commandName": "Project",
-      "commandLineArgs": "5 cvbnm"
+      "commandLineArgs": "1 2 3 "
     }
   }
 }

@@ -10,7 +10,7 @@ namespace FileParserTask
         static void Main(string[] args)
         {
             var path = @args[0];
-            if (new Valid().CanFindFile(path))
+            if (new Validate().CanFindFile(path))
             {
                 FileWorker f = new FileWorker(path);
                 Console.WriteLine(f.CountStringEnterance("hellow"));

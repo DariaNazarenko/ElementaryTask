@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ChessTask.Logic
+namespace ChessTask.Models
 {
-    class White : Cell
+    class Black : Cell
     {
-        public White() : base(' ')
+        public Black():base('*')
         {
 
         }

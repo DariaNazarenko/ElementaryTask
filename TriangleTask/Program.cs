@@ -11,7 +11,7 @@ namespace TriangleTask
     {
         static void Help()
         {
-            Console.WriteLine("Use . for double values and , as delimetr.\nEnter <name>, <side1>, <side2>, <side3>.");
+            Console.WriteLine("Use . for double values and , as delimiter.\nEnter <name>, <side1>, <side2>, <side3>.");
         }
 
         static void Main(string[] args)

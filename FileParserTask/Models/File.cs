@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SequenceTask
+namespace FileParserTask.Models
 {
-    interface ISequent
+    class File
     {
-        IList<int> Algorithm();
     }
 }
