@@ -14,7 +14,7 @@ namespace ChessTask.Validation
             inputArgs = input;
         }
 
-        public int[] GetInegerArray()
+        public int[] GetIntegerArray()
         {
             int[] intArray = null;
             if (inputArgs.Length == 2 && !ContainsNotNumbers())

@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Text;
 using TriangleTask.Contracts;
 
-namespace TriangleTask.Logic
+namespace TriangleTask.Models
 {
     class Triangle : IGeometrical
     {

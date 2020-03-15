@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "LuckyTicketsTask": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Study\\Курсы\\SoftServe\\TaskLuckyTickets.txt"
+    }
+  }
+}

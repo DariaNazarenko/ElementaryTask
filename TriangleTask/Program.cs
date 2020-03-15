@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using TriangleTask.Logic;
+using TriangleTask.Models;
 using TriangleTask.Validation;
 
 namespace TriangleTask

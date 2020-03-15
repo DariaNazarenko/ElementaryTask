@@ -10,7 +10,7 @@ namespace ChessTask
         {
             try
             {
-                var array = new Validate(args).GetInegerArray();
+                var array = new Validate(args).GetIntegerArray();
                 if (array != null)
                 {
                     Board b = new Board(array[0], array[1]);
