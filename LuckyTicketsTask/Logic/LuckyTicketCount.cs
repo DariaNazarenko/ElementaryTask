@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LuckyTicketsTask.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -22,7 +23,7 @@ namespace LuckyTicketsTask.Logic
             int amount = 0;
             for (int i = start; i <= end; i++)
             {
-                if (algorithm.IsLucky(i))
+                if (algorithm.IsLucky(new Ticket(i.ToString())))
                 {
                     amount++;
                 }

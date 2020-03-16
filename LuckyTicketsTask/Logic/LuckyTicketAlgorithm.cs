@@ -7,6 +7,6 @@ namespace LuckyTicketsTask.Logic
 {
     abstract class LuckyTicketAlgorithm 
     {
-        public abstract bool IsLucky(int ticket);
+        public abstract bool IsLucky(Ticket ticket);
     }
 }

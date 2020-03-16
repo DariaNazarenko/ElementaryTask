@@ -7,10 +7,10 @@ namespace LuckyTicketsTask.Logic
 {
     class PiterAlgorithm : LuckyTicketAlgorithm
     {
-        public override bool IsLucky(int ticket)
+        public override bool IsLucky(Ticket ticket)
         {
-            var sumOfEven = SumOfEven(new Ticket(ticket.ToString()).Number);
-            var sumOfOdd = SumOfOdd(new Ticket(ticket.ToString()).Number);
+            var sumOfEven = SumOfEven(ticket.Number);
+            var sumOfOdd = SumOfOdd(ticket.Number);
 
             return (sumOfEven == sumOfOdd) ? true : false;
         }

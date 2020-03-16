@@ -9,10 +9,10 @@ namespace LuckyTicketsTask.Logic
     {
         private readonly int CountOfNumbers = 6;
 
-        public override bool IsLucky(int ticket)
+        public override bool IsLucky(Ticket ticket)
         {
-            int FirstPartSum = SumOfTicketNumbers(new Ticket(ticket.ToString()).Number, 0, CountOfNumbers / 2);
-            int SecondPartSum = SumOfTicketNumbers(new Ticket(ticket.ToString()).Number, CountOfNumbers / 2, CountOfNumbers);
+            int FirstPartSum = SumOfTicketNumbers(ticket.Number, 0, CountOfNumbers / 2);
+            int SecondPartSum = SumOfTicketNumbers(ticket.Number, CountOfNumbers / 2, CountOfNumbers);
 
             return (FirstPartSum == SecondPartSum) ? true : false;
         }
