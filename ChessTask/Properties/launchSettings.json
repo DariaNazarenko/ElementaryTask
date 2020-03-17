@@ -2,7 +2,7 @@
   "profiles": {
     "ChessTask": {
       "commandName": "Project",
-      "commandLineArgs": "5 cvbnm"
+      "commandLineArgs": "5 5"
     }
   }
 }

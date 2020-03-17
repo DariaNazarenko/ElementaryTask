@@ -14,7 +14,7 @@ namespace LuckyTicketsTask
 
         static void Main(string[] args)
         {
-            var inputStringArray = new Validate().GetAppropriateStringArrayFromFile(@args[0]);
+            var inputStringArray = new Validator().GetAppropriateStringArrayFromFile(@args[0]);
             LuckyTicketCount luckyTicketCount = null;
             switch (inputStringArray[0])
             {

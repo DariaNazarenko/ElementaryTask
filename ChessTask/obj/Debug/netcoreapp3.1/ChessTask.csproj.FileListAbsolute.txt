@@ -9,3 +9,6 @@ C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\obj\Debug\netcoreapp3.1\C
 C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\obj\Debug\netcoreapp3.1\ChessTask.AssemblyInfo.cs
 C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\obj\Debug\netcoreapp3.1\ChessTask.dll
 C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\obj\Debug\netcoreapp3.1\ChessTask.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\bin\Debug\netcoreapp3.1\ValidationLibrary.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\bin\Debug\netcoreapp3.1\ValidationLibrary.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\obj\Debug\netcoreapp3.1\ChessTask.csproj.CopyComplete

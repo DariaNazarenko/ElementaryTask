@@ -8,16 +8,20 @@ namespace TriangleTask.Validation
     class CheckInputString
     {
         private string inputString;
+
         public CheckInputString(string str)
         {
             inputString = str;
         }
+
         public string[] GetAppropriateStringArray()
         {
-            string SpacePattern = @"\s+";
+            const string SpacePattern = @"\s+";
+            const string DotPattern = @"\.";
+
             Regex regex = new Regex(SpacePattern);
             inputString = regex.Replace(inputString, string.Empty);
-            string DotPattern = @"\.";
+            
             regex = new Regex(DotPattern);
             string[] StringArray = inputString.Split(',');
             for (int i = 0; i < StringArray.Length; i++)

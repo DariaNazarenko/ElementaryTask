@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "SequenceTask/1.0.0": {
+        "dependencies": {
+          "ValidationLibrary": "1.0.0"
+        },
         "runtime": {
           "SequenceTask.dll": {}
+        }
+      },
+      "ValidationLibrary/1.0.0": {
+        "runtime": {
+          "ValidationLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
     "SequenceTask/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValidationLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

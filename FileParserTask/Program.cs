@@ -1,5 +1,5 @@
 ﻿using FileParserTask.Logic;
-using FileParserTask.Validation;
+using FileParserTask.ValidationLibrary;
 using System;
 using System.IO;
 
@@ -10,7 +10,7 @@ namespace FileParserTask
         static void Main(string[] args)
         {
             var path = @args[0];
-            if (new Validate().CanFindFile(path))
+            if (new Validator().CanFindFile(path))
             {
                 FileWorker f = new FileWorker(path);
                 Console.WriteLine(f.CountStringEnterance("hellow"));

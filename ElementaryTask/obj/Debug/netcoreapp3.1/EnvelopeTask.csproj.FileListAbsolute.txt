@@ -9,3 +9,6 @@ C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\obj\Debug\netcoreapp
 C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\obj\Debug\netcoreapp3.1\EnvelopeTask.AssemblyInfo.cs
 C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\obj\Debug\netcoreapp3.1\EnvelopeTask.dll
 C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\obj\Debug\netcoreapp3.1\EnvelopeTask.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\bin\Debug\netcoreapp3.1\ValidationLibrary.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\bin\Debug\netcoreapp3.1\ValidationLibrary.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\ElementaryTask\obj\Debug\netcoreapp3.1\EnvelopeTask.csproj.CopyComplete

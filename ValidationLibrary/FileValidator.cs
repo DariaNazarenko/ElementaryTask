@@ -1,32 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using System.IO;
+using System.Text;
 using System.Text.RegularExpressions;
 
-namespace LuckyTicketsTask.Validation
+namespace ValidationLibrary
 {
-    class Validate
+    public class FileValidator
     {
-        private bool CanFindFile(string filePath)
+        public string FilePath { get; set; }
+
+        public FileValidator(string path)
+        {
+            FilePath = path;
+        }
+
+        public bool CanFindFile(string filePath)
         {
 
-            return File.Exists(filePath);
+            return System.IO.File.Exists(filePath);
         }
 
         public string[] GetAppropriateStringArrayFromFile(string filePath)
         {
             string[] array = null;
-            if(CanFindFile(filePath))
+            const string SpacePattern = @"\s+";
+            Regex regex = new Regex(SpacePattern);
+
+            if (CanFindFile(filePath))
             {
                 string fileString;
+
                 using (StreamReader sr = new StreamReader(filePath))
                 {
-                    fileString =  sr.ReadToEnd();
+                    fileString = sr.ReadToEnd();
                 }
 
-                string SpacePattern = @"\s+";
-                Regex regex = new Regex(SpacePattern);
                 fileString = regex.Replace(fileString, string.Empty);
 
                 array = fileString.Split(',');

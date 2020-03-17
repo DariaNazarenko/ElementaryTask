@@ -1,0 +1,8 @@
+C:\Study\Курсы\SoftServe\ElementaryTask\ValidationLibrary\bin\Debug\netcoreapp3.1\ValidationLibrary.deps.json
+C:\Study\Курсы\SoftServe\ElementaryTask\ValidationLibrary\bin\Debug\netcoreapp3.1\ValidationLibrary.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\ValidationLibrary\bin\Debug\netcoreapp3.1\ValidationLibrary.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\ValidationLibrary\obj\Debug\netcoreapp3.1\ValidationLibrary.AssemblyInfoInputs.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\ValidationLibrary\obj\Debug\netcoreapp3.1\ValidationLibrary.AssemblyInfo.cs
+C:\Study\Курсы\SoftServe\ElementaryTask\ValidationLibrary\obj\Debug\netcoreapp3.1\ValidationLibrary.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\ValidationLibrary\obj\Debug\netcoreapp3.1\ValidationLibrary.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\ValidationLibrary\obj\Debug\netcoreapp3.1\ValidationLibrary.csprojAssemblyReference.cache

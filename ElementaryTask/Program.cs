@@ -1,8 +1,8 @@
 ﻿using EnvelopeTask.Logic;
 using EnvelopeTask.Models;
-using EnvelopeTask.Validation;
 using System;
 using System.Linq;
+using ValidationLibrary;
 
 namespace EnvelopeTask
 {
@@ -13,7 +13,7 @@ namespace EnvelopeTask
         static int Main(string[] args)
         {
             double[] sides = null;
-            sides = new Validate(args).ToDoubleArray();
+            sides = new Validator(args).GetDoubleArray();
 
             if (sides != null)
             {

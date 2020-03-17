@@ -2,7 +2,7 @@
   "profiles": {
     "TriangleTask": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Study\\Курсы\\SoftServe\\TaskFileParser.txt"
+      "commandLineArgs": "name, 3,4 6.9 "
     }
   }
 }

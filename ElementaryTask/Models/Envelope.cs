@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Text;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 
 namespace EnvelopeTask.Models
 {
-    class Envelope
+    class Envelope 
     {
         public double Side1 { get; }
         public double Side2 { get; }

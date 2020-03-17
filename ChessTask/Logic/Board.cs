@@ -8,23 +8,28 @@ namespace ChessTask.Logic
 {
     class Board : IDrawable
     {
-        private int width;
-        private int height;
+        public int Width { get; private set; }
+        public int Height { get; private set; }
         private Cell[,] board;
+
+        public char this[int i, int j]
+        {
+            get => board[i,j].Value;
+        }
 
         public Board(int width, int height)
         {
-            this.width = width;
-            this.height = height;
+            this.Width = width;
+            this.Height = height;
             board = SetBoard();
         }
 
         private Cell[,] SetBoard()
         {
-            board = new Cell[height, width];
-            for (int i = 0; i < height; i++)
+            board = new Cell[Height, Width];
+            for (int i = 0; i < Height; i++)
             {
-                for (int j = 0; j < width; j++)
+                for (int j = 0; j < Width; j++)
                 {
                     if (i % 2 == 0)
                     {
@@ -52,18 +57,6 @@ namespace ChessTask.Logic
             }
 
             return board;
-        }
-
-        public void Draw()
-        {
-            for (int i = 0; i < height; i++)
-            {
-                for (int j = 0; j < width; j++)
-                {
-                    Console.Write(board[i, j].Value);
-                }
-                Console.WriteLine();
-            }
         }
     }
 }

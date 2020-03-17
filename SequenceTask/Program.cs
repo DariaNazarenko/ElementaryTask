@@ -1,7 +1,8 @@
 ﻿using SequenceTask.Logic;
 using SequenceTask.Models;
-using SequenceTask.Validation;
+using SequenceTask.UI;
 using System;
+using ValidationLibrary;
 
 namespace SequenceTask
 {
@@ -9,7 +10,7 @@ namespace SequenceTask
     {
         static int Main(string[] args)
         {
-            int[] intArgs = new Validate(args).ToIntArray();
+            int[] intArgs = new Validator(args).GetIntegerArray();
             Sequence sequence = null;
 
             if (intArgs.Length == 2)
@@ -27,10 +28,7 @@ namespace SequenceTask
             }
 
             var res = sequence.Algorithm();
-            foreach (var item in res)
-            {
-                Console.Write($"{item}  ");
-            }
+            new Print().PrintSequence(res);
             return 0;
         }
     }

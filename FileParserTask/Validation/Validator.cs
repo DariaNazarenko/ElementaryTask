@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Text;
 using System.IO;
 
-namespace FileParserTask.Validation
+namespace FileParserTask.ValidationLibrary
 {
-    class Validate
+    class Validator
     {
         public bool CanFindFile(string filePath)
         {
+
             return System.IO.File.Exists(filePath);
         }
     }

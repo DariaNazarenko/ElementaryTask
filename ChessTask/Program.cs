@@ -1,6 +1,7 @@
 ﻿using ChessTask.Logic;
-using ChessTask.Validation;
+using ChessTask.UI;
 using System;
+using ValidationLibrary;
 
 namespace ChessTask
 {
@@ -10,11 +11,11 @@ namespace ChessTask
         {
             try
             {
-                var array = new Validate(args).GetIntegerArray();
+                var array = new Validator(args).GetIntegerArray();
                 if (array != null)
                 {
                     Board b = new Board(array[0], array[1]);
-                    b.Draw();
+                    new Print().PrintBoard(b);
                 }
                 else
                 {

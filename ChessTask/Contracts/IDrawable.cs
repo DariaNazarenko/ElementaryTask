@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChessTask.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,6 +7,9 @@ namespace ChessTask.Contracts
 {
     interface IDrawable
     {
-        void Draw();
+        char this[int i, int j]
+        {
+            get;
+        }
     }
 }

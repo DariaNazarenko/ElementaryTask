@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 
-namespace ChessTask.Validation
+namespace ValidationLibrary
 {
-    class Validate
+    public class Validator
     {
         private string[] inputArgs;
-        public Validate(string[] input)
+        public Validator(string[] input)
         {
             inputArgs = input;
         }
@@ -17,7 +16,8 @@ namespace ChessTask.Validation
         public int[] GetIntegerArray()
         {
             int[] intArray = null;
-            if (inputArgs.Length == 2 && !ContainsNotNumbers())
+
+            if (!ContainsNotNumbers())
             {
                 intArray = inputArgs.Select(s => Int32.Parse(s)).ToArray();
             }
@@ -25,10 +25,23 @@ namespace ChessTask.Validation
             return intArray;
         }
 
+        public double[] GetDoubleArray()
+        {
+            double[] doubleArray = null;
+
+            if (!ContainsNotNumbers())
+            {
+                doubleArray = inputArgs.Select(s => double.Parse(s)).ToArray();
+            }
+
+            return doubleArray;
+        }
+
         private bool ContainsNotNumbers()
         {
-            string NotNumberPattern = @"\D+";
+            const string NotNumberPattern = @"\D+";
             Regex regex = new Regex(NotNumberPattern);
+
             foreach (var item in inputArgs)
             {
                 if (regex.IsMatch(item))
