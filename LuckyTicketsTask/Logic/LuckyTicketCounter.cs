@@ -1,7 +1,4 @@
 ﻿using LuckyTicketsTask.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace LuckyTicketsTask.Logic
 {
@@ -11,11 +8,11 @@ namespace LuckyTicketsTask.Logic
         private int end;
         private LuckyTicketAlgorithm algorithm;
 
-        public LuckyTicketCounter(int Start, int End, LuckyTicketAlgorithm Algorithm)
+        public LuckyTicketCounter(int start, int end, LuckyTicketAlgorithm algorithm)
         {
-            start = Start;
-            end = End;
-            algorithm = Algorithm;
+            this.start = start;
+            this.end = end;
+            this.algorithm = algorithm;
         }
 
         public int CountLuckyTickets()

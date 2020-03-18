@@ -1,17 +1,21 @@
 ﻿using System;
 using System.Linq;
-using System.Collections.Generic;
-using System.Text;
 
 namespace LuckyTicketsTask.Models
 {
     class Ticket
     {
-        public int[] Number { get; private set; }
+        private int[] number;
+        public int Length { get => number.Length; }
+
+        public int this[int i]
+        {
+            get => number[i];
+        }
 
         public Ticket(string number)
         {
-            Number = GetIntegerArray(number);
+            this.number = GetIntegerArray(number);
         }
 
         private int[] GetIntegerArray(string number)
