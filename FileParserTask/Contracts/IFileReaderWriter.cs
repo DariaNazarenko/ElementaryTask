@@ -5,8 +5,9 @@ using System.Text;
 
 namespace FileParserTask.Contracts
 {
-    interface IFileReader
+    interface IFileReaderWriter
     {
-        string GetStringFromFile();
+        string Read();
+        void Write(string text);
     }
 }

@@ -2,6 +2,7 @@
 using ValidationLibrary;
 using System;
 using System.IO;
+using FileParserTask.FileParserApp;
 
 namespace FileParserTask
 {
@@ -9,18 +10,15 @@ namespace FileParserTask
     {
         static void Main(string[] args)
         {
-            var path = @args[0];
-            if (FileValidator.CanFindFile(path))
-            {
-                FileWorker f = new FileWorker(path);
-                Console.WriteLine(f.CountStringEnterance("hellow"));
-                f.ReplaceString("hellow", "HI");
-                Console.WriteLine(f.CountStringEnterance("HI"));
-            }
-            else
-            {
-                Console.WriteLine($"Can`t find file {path}.");
-            }
+			try
+			{
+				Application.Run(args);
+			}
+			catch (Exception e)
+			{
+
+				Console.WriteLine(e.Message);
+			}
         }
     }
 }
