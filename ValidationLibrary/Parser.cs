@@ -46,15 +46,12 @@ namespace ValidationLibrary
 
         public static string[] GetAppropriateStringArray(string inputString)
         {
-            const string DotPattern = @"\.";
-            Regex regex = new Regex(DotPattern);
-
             RemoveSpaces(inputString);
-           
+
             string[] StringArray = inputString.Split(',');
             for (int i = 0; i < StringArray.Length; i++)
             {
-                StringArray[i] = regex.Replace(StringArray[i], ",");
+                StringArray[i] = ChangeDots(StringArray[i]);
             }
 
             return StringArray;
@@ -67,6 +64,14 @@ namespace ValidationLibrary
             inputString = regex.Replace(inputString, string.Empty);
 
             return inputString;
+        }
+
+        private static string ChangeDots(string inputString)
+        {
+            const string DotPattern = @"\.";
+            Regex regex = new Regex(DotPattern);
+
+            return inputString = regex.Replace(inputString, ",");
         }
     }
 }
