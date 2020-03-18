@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
+﻿
 namespace TriangleTask.Contracts
 {
-    interface IGeometrical
+    public interface IGeometrical
     {
-        public double Perimetr { get; }
-        public double Area { get; }
+        double Perimetr { get; }
+        double Area { get; }
     }
 }

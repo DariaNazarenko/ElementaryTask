@@ -1,8 +1,5 @@
 ﻿using ChessTask.Contracts;
 using ChessTask.Models;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ChessTask.Logic
 {
@@ -14,7 +11,7 @@ namespace ChessTask.Logic
 
         public char this[int i, int j]
         {
-            get => board[i,j].Value;
+            get => board[i, j].Value;
         }
 
         public Board(int width, int height)
@@ -27,6 +24,7 @@ namespace ChessTask.Logic
         private Cell[,] SetBoard()
         {
             board = new Cell[Height, Width];
+
             for (int i = 0; i < Height; i++)
             {
                 for (int j = 0; j < Width; j++)

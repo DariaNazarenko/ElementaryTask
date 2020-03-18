@@ -14,7 +14,7 @@ namespace SequenceTask.Models
             Sequent = seq;
         }
 
-        public IList<int> Algorithm()
+        public IEnumerable<int> Algorithm()
         {
             var seq = Sequent.Algorithm();
 

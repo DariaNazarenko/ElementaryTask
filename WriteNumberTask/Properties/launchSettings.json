@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WriteNumberTask": {
+      "commandName": "Project",
+      "commandLineArgs": "2356"
+    }
+  }
+}

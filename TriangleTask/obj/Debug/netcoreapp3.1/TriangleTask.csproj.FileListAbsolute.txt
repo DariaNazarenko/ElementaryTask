@@ -9,3 +9,6 @@ C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.
 C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.1\TriangleTask.AssemblyInfo.cs
 C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.1\TriangleTask.dll
 C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.1\TriangleTask.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\ValidationLibrary.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\ValidationLibrary.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.1\TriangleTask.csproj.CopyComplete

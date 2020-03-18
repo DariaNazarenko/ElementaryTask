@@ -1,0 +1,14 @@
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\WriteNumberTask.exe
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\WriteNumberTask.deps.json
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\WriteNumberTask.runtimeconfig.json
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\WriteNumberTask.runtimeconfig.dev.json
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\WriteNumberTask.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\WriteNumberTask.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\obj\Debug\netcoreapp3.1\WriteNumberTask.csprojAssemblyReference.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\obj\Debug\netcoreapp3.1\WriteNumberTask.AssemblyInfoInputs.cache
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\obj\Debug\netcoreapp3.1\WriteNumberTask.AssemblyInfo.cs
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\obj\Debug\netcoreapp3.1\WriteNumberTask.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\obj\Debug\netcoreapp3.1\WriteNumberTask.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\ValidationLibrary.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\ValidationLibrary.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\obj\Debug\netcoreapp3.1\WriteNumberTask.csproj.CopyComplete

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ValidationLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ValidationLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ValidationLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ValidationLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ValidationLibrary/ValidationLibrary.csproj",
+      "msbuildProject": "../ValidationLibrary/ValidationLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ValidationLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Daria\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Study\\Курсы\\SoftServe\\ElementaryTask\\ValidationLibrary\\ValidationLibrary.csproj": {
+              "projectPath": "C:\\Study\\Курсы\\SoftServe\\ElementaryTask\\ValidationLibrary\\ValidationLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

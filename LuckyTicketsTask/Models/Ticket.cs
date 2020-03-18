@@ -11,10 +11,10 @@ namespace LuckyTicketsTask.Models
 
         public Ticket(string number)
         {
-            Number = GetInegerArray(number);
+            Number = GetIntegerArray(number);
         }
 
-        private int[] GetInegerArray(string number)
+        private int[] GetIntegerArray(string number)
         {
 
             return number.ToString().ToCharArray().Select(s => Int32.Parse(s.ToString())).ToArray();

@@ -1,7 +1,5 @@
-﻿using ChessTask.Logic;
-using ChessTask.UI;
+﻿using ChessTask.ChessApp;
 using System;
-using ValidationLibrary;
 
 namespace ChessTask
 {
@@ -11,16 +9,7 @@ namespace ChessTask
         {
             try
             {
-                var array = new Validator(args).GetIntegerArray();
-                if (array != null)
-                {
-                    Board b = new Board(array[0], array[1]);
-                    new Print().PrintBoard(b);
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input string");
-                }
+                Application.Run(args);
             }
             catch (Exception e)
             {

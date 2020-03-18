@@ -1,33 +1,22 @@
-﻿using EnvelopeTask.Logic;
-using EnvelopeTask.Models;
+﻿using EnvelopeTask.EnvelopeApp;
 using System;
-using System.Linq;
-using ValidationLibrary;
 
 namespace EnvelopeTask
 {
     class Program
     {
-        public delegate bool CheckDelegate(Envelope env1, Envelope env2);
 
-        static int Main(string[] args)
+        static void Main(string[] args)
         {
-            double[] sides = null;
-            sides = new Validator(args).GetDoubleArray();
-
-            if (sides != null)
+            try
             {
-                Envelope env1 = new Envelope(sides[0], sides[1]);
-                Envelope env2 = new Envelope(sides[2], sides[3]);
-                CheckDelegate check = new CheckDelegate(CheckSizeMethods.SimpleIfChecking);
-                Console.WriteLine(check(env1, env2));
+                Application.Run(args);
             }
-            else
+            catch (Exception e)
             {
-                Console.WriteLine("Invalid input string");
-            }
 
-            return 0;
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }

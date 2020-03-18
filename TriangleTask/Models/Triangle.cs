@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
-using System.Text;
 using TriangleTask.Contracts;
 
 namespace TriangleTask.Models
@@ -16,12 +13,12 @@ namespace TriangleTask.Models
         public double Perimetr { get => side1 + side2 + side3; }
         public double Area { get => Math.Sqrt(Perimetr / 2 * (Perimetr / 2 - side1) * (Perimetr / 2 - side2) * (Perimetr / 2 - side3)); }
 
-        public Triangle(string name, double a, double b, double c)
+        public Triangle(string name, double side1, double side2, double side3)
         {
             this.name = name;
-            side1 = a;
-            side2 = b;
-            side3 = c;
+            this.side1 = side1;
+            this.side2 = side2;
+            this.side3 = side3;
         }
 
         public override string ToString()

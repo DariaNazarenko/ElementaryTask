@@ -6,22 +6,15 @@ using System.Text.RegularExpressions;
 
 namespace ValidationLibrary
 {
-    public class FileValidator
+    public static class FileValidator
     {
-        public string FilePath { get; set; }
-
-        public FileValidator(string path)
-        {
-            FilePath = path;
-        }
-
-        public bool CanFindFile(string filePath)
+        public static bool CanFindFile(string filePath)
         {
 
             return System.IO.File.Exists(filePath);
         }
 
-        public string[] GetAppropriateStringArrayFromFile(string filePath)
+        public static string[] GetAppropriateStringArrayFromFile(string filePath)
         {
             string[] array = null;
             const string SpacePattern = @"\s+";

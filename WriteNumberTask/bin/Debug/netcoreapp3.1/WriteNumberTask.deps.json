@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WriteNumberTask/1.0.0": {
+        "dependencies": {
+          "ValidationLibrary": "1.0.0"
+        },
+        "runtime": {
+          "WriteNumberTask.dll": {}
+        }
+      },
+      "ValidationLibrary/1.0.0": {
+        "runtime": {
+          "ValidationLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WriteNumberTask/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValidationLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,7 +1,5 @@
 ﻿using SequenceTask.Contracts;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SequenceTask.Logic
 {
@@ -14,13 +12,13 @@ namespace SequenceTask.Logic
             sqrtNum = num;
         }
 
-        IList<int> ISequent.Algorithm()
+        public IEnumerable<int> Algorithm()
         {
-            IList<int> sequence = new List<int>();
-            int x;
-            for (int i = 1; (x = i * i) <= sqrtNum; i++)
+            ICollection<int> sequence = new List<int>();
+            int sequentMember;
+            for (int i = 1; (sequentMember = i * i) <= sqrtNum; i++)
             {
-                sequence.Add(x);
+                sequence.Add(sequentMember);
             }
 
             return sequence;

@@ -5,13 +5,13 @@ using System.Text;
 
 namespace LuckyTicketsTask.Logic
 {
-    class LuckyTicketCount
+    class LuckyTicketCounter
     {
         private int start;
         private int end;
         private LuckyTicketAlgorithm algorithm;
 
-        public LuckyTicketCount(int Start, int End, LuckyTicketAlgorithm Algorithm)
+        public LuckyTicketCounter(int Start, int End, LuckyTicketAlgorithm Algorithm)
         {
             start = Start;
             end = End;

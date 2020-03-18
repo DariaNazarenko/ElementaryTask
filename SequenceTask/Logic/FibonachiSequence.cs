@@ -1,7 +1,5 @@
 ﻿using SequenceTask.Contracts;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SequenceTask.Logic
 {
@@ -16,9 +14,9 @@ namespace SequenceTask.Logic
             this.end = end;
         }
 
-        public IList<int> Algorithm()
+        public IEnumerable<int> Algorithm()
         {
-            IList<int> sequence = new List<int>();
+            ICollection<int> sequence = new List<int>();
             int j = start;
             for (int i = start; i <= end; i += j)
             {

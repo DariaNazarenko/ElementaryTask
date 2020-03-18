@@ -1,4 +1,5 @@
-﻿using System;
+﻿using WriteNumberTask.WriteNumberApp;
+using System;
 
 namespace WriteNumberTask
 {
@@ -6,7 +7,15 @@ namespace WriteNumberTask
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+			try
+			{
+				Application.Run(args);
+			}
+			catch (Exception e)
+			{
+
+				Console.WriteLine(e.Message);
+			}
         }
     }
 }

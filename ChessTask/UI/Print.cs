@@ -1,13 +1,11 @@
 ﻿using ChessTask.Logic;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace ChessTask.UI
 {
-    class Print
+    static class Print
     {
-        public void PrintBoard(Board board)
+        public static void PrintBoard(Board board)
         {
             for (int i = 0; i < board.Height; i++)
             {

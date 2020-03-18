@@ -9,3 +9,6 @@ C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\obj\Debug\netcoreapp
 C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\obj\Debug\netcoreapp3.1\FileParserTask.AssemblyInfo.cs
 C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\obj\Debug\netcoreapp3.1\FileParserTask.dll
 C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\obj\Debug\netcoreapp3.1\FileParserTask.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\bin\Debug\netcoreapp3.1\ValidationLibrary.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\bin\Debug\netcoreapp3.1\ValidationLibrary.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\FileParserTask\obj\Debug\netcoreapp3.1\FileParserTask.csproj.CopyComplete
