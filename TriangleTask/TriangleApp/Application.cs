@@ -18,6 +18,10 @@ namespace TriangleTask.TriangleApp
             {
                 var triangle = Console.ReadLine();
                 var triangleArray = Parser.GetAppropriateStringArray(triangle);
+                for (int i = 0; i < triangleArray.Length; i++)
+                {
+                    triangleArray[i] = Parser.ChangeDots(triangleArray[i]);
+                }
 
                 try
                 {

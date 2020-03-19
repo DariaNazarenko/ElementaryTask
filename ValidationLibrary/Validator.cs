@@ -21,5 +21,19 @@ namespace ValidationLibrary
 
             return false;
         }
+
+        public static bool ContainsNotNumbers(string inputArgs)
+        {
+            const string NotNumberPattern = @"\D+";
+            Regex regex = new Regex(NotNumberPattern);
+
+            if (regex.IsMatch(inputArgs))
+            {
+
+                return true;
+            }
+
+            return false;
+        }
     }
 }

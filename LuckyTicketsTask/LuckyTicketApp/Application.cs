@@ -12,17 +12,20 @@ namespace LuckyTicketsTask.LuckyTicketApp
             Helper.Help();
 
             var inputStringArray = FileValidator.GetAppropriateStringArrayFromFile(@args[0]);
+            var algorithm = inputStringArray[0];
+            int startIndex;
+            int endIndex;
             LuckyTicketCounter luckyTicketCount = null;
 
-            try
+            if(int.TryParse(inputStringArray[1], out startIndex) && int.TryParse(inputStringArray[2], out endIndex) && startIndex <= 999999 && endIndex <= 999999)
             {
-                switch (inputStringArray[0])
+                switch (algorithm)
                 {
                     case "Moskow":
-                        luckyTicketCount = new LuckyTicketCounter(Int32.Parse(inputStringArray[1]), Int32.Parse(inputStringArray[2]), new MoskowAlgorithm());
+                        luckyTicketCount = new LuckyTicketCounter(startIndex, endIndex, new MoskowAlgorithm());
                         break;
                     case "Piter":
-                        luckyTicketCount = new LuckyTicketCounter(Int32.Parse(inputStringArray[1]), Int32.Parse(inputStringArray[2]), new PiterAlgorithm());
+                        luckyTicketCount = new LuckyTicketCounter(startIndex, endIndex, new PiterAlgorithm());
                         break;
                     default:
                         Console.WriteLine("Ivalid algorithm");
@@ -30,10 +33,9 @@ namespace LuckyTicketsTask.LuckyTicketApp
                 }
                 Console.WriteLine(luckyTicketCount.CountLuckyTickets());
             }
-            catch (FormatException e)
+            else
             {
-
-                Console.WriteLine(e.Message);
+                throw new FormatException("Invalid numbers");
             }
         }
     }

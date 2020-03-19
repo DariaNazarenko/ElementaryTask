@@ -32,13 +32,13 @@ namespace ValidationLibrary
             return doubleArray;
         }
 
-        public static int GetIntegerValue(string[] inputArgs)
+        public static int GetIntegerValue(string inputArgs)
         {
             int integerValue = 0;
 
             if (!Validator.ContainsNotNumbers(inputArgs))
             {
-                integerValue = Int32.Parse(inputArgs[0]);
+                integerValue = Int32.Parse(inputArgs);
             }
 
             return integerValue;
@@ -49,11 +49,7 @@ namespace ValidationLibrary
             RemoveSpaces(inputString);
 
             string[] StringArray = inputString.Split(',');
-            for (int i = 0; i < StringArray.Length; i++)
-            {
-                StringArray[i] = ChangeDots(StringArray[i]);
-            }
-
+            
             return StringArray;
         }
 
@@ -66,7 +62,7 @@ namespace ValidationLibrary
             return inputString;
         }
 
-        private static string ChangeDots(string inputString)
+        public static string ChangeDots(string inputString)
         {
             const string DotPattern = @"\.";
             Regex regex = new Regex(DotPattern);
