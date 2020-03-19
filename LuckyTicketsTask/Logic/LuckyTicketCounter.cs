@@ -1,4 +1,5 @@
-﻿using LuckyTicketsTask.Models;
+﻿using LuckyTicketsTask.Contracts;
+using LuckyTicketsTask.Models;
 
 namespace LuckyTicketsTask.Logic
 {
@@ -6,9 +7,9 @@ namespace LuckyTicketsTask.Logic
     {
         private int start;
         private int end;
-        private LuckyTicketAlgorithm algorithm;
+        private IAlgorithm algorithm;
 
-        public LuckyTicketCounter(int start, int end, LuckyTicketAlgorithm algorithm)
+        public LuckyTicketCounter(int start, int end, IAlgorithm algorithm)
         {
             this.start = start;
             this.end = end;

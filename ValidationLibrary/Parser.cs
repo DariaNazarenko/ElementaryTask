@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
 
 namespace ValidationLibrary
@@ -67,7 +65,7 @@ namespace ValidationLibrary
             const string DotPattern = @"\.";
             Regex regex = new Regex(DotPattern);
 
-            return inputString = regex.Replace(inputString, ",");
+            return regex.Replace(inputString, ",");
         }
     }
 }

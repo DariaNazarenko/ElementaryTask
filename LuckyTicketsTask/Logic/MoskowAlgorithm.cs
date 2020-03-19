@@ -1,12 +1,13 @@
-﻿using LuckyTicketsTask.Models;
+﻿using LuckyTicketsTask.Contracts;
+using LuckyTicketsTask.Models;
 
 namespace LuckyTicketsTask.Logic
 {
-    class MoskowAlgorithm : LuckyTicketAlgorithm
+    class MoskowAlgorithm : IAlgorithm
     {
         private readonly int CountOfNumbers = 6;
 
-        public override bool IsLucky(Ticket ticket)
+        public bool IsLucky(Ticket ticket)
         {
             int FirstPartSum = SumOfTicketNumbers(ticket, 0, CountOfNumbers / 2);
             int SecondPartSum = SumOfTicketNumbers(ticket, CountOfNumbers / 2, CountOfNumbers);

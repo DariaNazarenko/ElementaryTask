@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
+﻿using System.IO;
 using System.Text.RegularExpressions;
 
 namespace ValidationLibrary
@@ -11,14 +8,12 @@ namespace ValidationLibrary
         public static bool CanFindFile(string filePath)
         {
 
-            return System.IO.File.Exists(filePath);
+            return File.Exists(filePath);
         }
 
         public static string[] GetAppropriateStringArrayFromFile(string filePath)
         {
             string[] array = null;
-            const string SpacePattern = @"\s+";
-            Regex regex = new Regex(SpacePattern);
 
             if (CanFindFile(filePath))
             {
@@ -29,7 +24,7 @@ namespace ValidationLibrary
                     fileString = sr.ReadToEnd();
                 }
 
-                fileString = regex.Replace(fileString, string.Empty);
+                fileString = Parser.RemoveSpaces(fileString);
 
                 array = fileString.Split(',');
             }

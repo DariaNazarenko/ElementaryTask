@@ -1,10 +1,11 @@
-﻿using LuckyTicketsTask.Models;
+﻿using LuckyTicketsTask.Contracts;
+using LuckyTicketsTask.Models;
 
 namespace LuckyTicketsTask.Logic
 {
-    class PiterAlgorithm : LuckyTicketAlgorithm
+    class PiterAlgorithm : IAlgorithm
     {
-        public override bool IsLucky(Ticket ticket)
+        public bool IsLucky(Ticket ticket)
         {
             var sumOfEven = SumOfElements(ticket, 1);
             var sumOfOdd = SumOfElements(ticket, 0);
