@@ -14,7 +14,7 @@ namespace SequenceTask.SequenceApp
 
         public static void Run(string[] args)
         {
-            int[] intArgs = Parser.GetIntegerArray(args);
+            int[] intArgs = new Parser().GetIntegerArray(args);
             Sequence sequence = null;
 
             if (intArgs!=null && intArgs.Length == 2)

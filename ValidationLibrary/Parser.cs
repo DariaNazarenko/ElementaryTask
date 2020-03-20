@@ -4,9 +4,9 @@ using System.Text.RegularExpressions;
 
 namespace ValidationLibrary
 {
-    public static class Parser
+    public class Parser
     {
-        public static int[] GetIntegerArray(string[] inputArgs)
+        public int[] GetIntegerArray(string[] inputArgs)
         {
             int[] intArray = null;
 
@@ -18,7 +18,7 @@ namespace ValidationLibrary
             return intArray;
         }
 
-        public static double[] GetDoubleArray(string[] inputArgs)
+        public double[] GetDoubleArray(string[] inputArgs)
         {
             double[] doubleArray = null;
 
@@ -30,7 +30,7 @@ namespace ValidationLibrary
             return doubleArray;
         }
 
-        public static int GetIntegerValue(string inputArgs)
+        public int GetIntegerValue(string inputArgs)
         {
             int integerValue = 0;
 
@@ -42,7 +42,7 @@ namespace ValidationLibrary
             return integerValue;
         }
 
-        public static string[] GetAppropriateStringArray(string inputString)
+        public string[] GetAppropriateStringArray(string inputString)
         {
             inputString = RemoveSpaces(inputString);
 
@@ -51,7 +51,7 @@ namespace ValidationLibrary
             return StringArray;
         }
 
-        public static string RemoveSpaces(string inputString)
+        public string RemoveSpaces(string inputString)
         {
             const string SpacePattern = @"\s+";
             Regex regex = new Regex(SpacePattern);
@@ -60,7 +60,7 @@ namespace ValidationLibrary
             return inputString;
         }
 
-        public static string ChangeDots(string inputString)
+        public string ChangeDots(string inputString)
         {
             const string DotPattern = @"\.";
             Regex regex = new Regex(DotPattern);

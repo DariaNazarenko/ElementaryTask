@@ -4,6 +4,7 @@ using FileParserTask.UI;
 using System.Reflection;
 using log4net;
 using System;
+using System.IO;
 
 namespace FileParserTask.FileParserApp
 {
@@ -14,11 +15,11 @@ namespace FileParserTask.FileParserApp
         public static void Run(string[] args)
         {
             var path = @args[0];
-            if (FileValidator.CanFindFile(path))
+            if (File.Exists(path))
             {
                 Helper.Help();
                 var taskArgs = Console.ReadLine();
-                var taskArgsArray = Parser.GetAppropriateStringArray(taskArgs);
+                var taskArgsArray = new Parser().GetAppropriateStringArray(taskArgs);
 
                 switch (taskArgsArray.Length)
                 {

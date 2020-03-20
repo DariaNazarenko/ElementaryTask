@@ -21,10 +21,10 @@ namespace TriangleTask.TriangleApp
             do
             {
                 var triangle = Console.ReadLine();
-                var triangleArray = Parser.GetAppropriateStringArray(triangle);
+                var triangleArray = new Parser().GetAppropriateStringArray(triangle);
                 for (int i = 0; i < triangleArray.Length; i++)
                 {
-                    triangleArray[i] = Parser.ChangeDots(triangleArray[i]);
+                    triangleArray[i] = new Parser().ChangeDots(triangleArray[i]);
                 }
 
                 try

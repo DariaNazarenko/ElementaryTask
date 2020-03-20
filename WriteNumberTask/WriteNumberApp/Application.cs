@@ -12,7 +12,7 @@ namespace WriteNumberTask.WriteNumberApp
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         public static void Run(string[] args)
         {
-            Numeric number = new Numeric { Number = Parser.GetIntegerValue(args[0]) };
+            Numeric number = new Numeric { Number = new Parser().GetIntegerValue(args[0]) };
 
             if (number != null)
             {

@@ -14,7 +14,7 @@ namespace EnvelopeTask.EnvelopeApp
 
         public static void Run(string[] args)
         {
-            double[] sides = Parser.GetDoubleArray(args);
+            double[] sides = new Parser().GetDoubleArray(args);
 
             if (sides != null)
             {

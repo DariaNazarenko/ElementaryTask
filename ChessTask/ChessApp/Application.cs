@@ -13,7 +13,7 @@ namespace ChessTask.ChessApp
 
         public static void Run(string[] args)
         {
-            var array = Parser.GetIntegerArray(args);
+            var array = new Parser().GetIntegerArray(args);
 
             if (array != null && array.Length == 2)
             {
