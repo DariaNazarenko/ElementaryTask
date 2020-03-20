@@ -11,6 +11,7 @@ namespace SequenceTask.UI
             {
                 Console.Write($"{item}  ");
             }
+            Console.WriteLine();
         }
     }
 }

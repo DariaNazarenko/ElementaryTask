@@ -12,3 +12,6 @@ C:\Study\Курсы\SoftServe\ElementaryTask\LuckyTicketsTask\obj\Debug\netcorea
 C:\Study\Курсы\SoftServe\ElementaryTask\LuckyTicketsTask\bin\Debug\netcoreapp3.1\ValidationLibrary.dll
 C:\Study\Курсы\SoftServe\ElementaryTask\LuckyTicketsTask\bin\Debug\netcoreapp3.1\ValidationLibrary.pdb
 C:\Study\Курсы\SoftServe\ElementaryTask\LuckyTicketsTask\obj\Debug\netcoreapp3.1\LuckyTicketsTask.csproj.CopyComplete
+C:\Study\Курсы\SoftServe\ElementaryTask\LuckyTicketsTask\bin\Debug\netcoreapp3.1\log4net.config
+C:\Study\Курсы\SoftServe\ElementaryTask\LuckyTicketsTask\bin\Debug\netcoreapp3.1\LoggerLibrary.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\LuckyTicketsTask\bin\Debug\netcoreapp3.1\LoggerLibrary.pdb

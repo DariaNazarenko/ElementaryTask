@@ -31,30 +31,40 @@ namespace ChessTask.Logic
                 {
                     if (i % 2 == 0)
                     {
-                        if (j % 2 == 0)
-                        {
-                            board[i, j] = new Black();
-                        }
-                        else
-                        {
-                            board[i, j] = new White();
-                        }
+                        board[i, j] = SetEvenRow(j);
                     }
                     else
                     {
-                        if (j % 2 == 0)
-                        {
-                            board[i, j] = new White();
-                        }
-                        else
-                        {
-                            board[i, j] = new Black();
-                        }
+                        board[i, j] = SetOddRow(j);
                     }
                 }
             }
 
             return board;
+        }
+
+        private Cell SetEvenRow(int column)
+        {
+            if (column % 2 == 0)
+            {
+                return new Black();
+            }
+            else
+            {
+                return new White();
+            }
+        }
+
+        private Cell SetOddRow(int column)
+        {
+            if (column % 2 == 0)
+            {
+                return new White();
+            }
+            else
+            {
+                return new Black();
+            }
         }
     }
 }

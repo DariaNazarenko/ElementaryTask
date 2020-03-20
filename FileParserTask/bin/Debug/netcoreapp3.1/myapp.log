@@ -1,0 +1,7 @@
+2020-03-20 11:09:44,682 [1] INFO FileParserTask.Program - Hello logging world!
+2020-03-20 11:09:57,023 [1] INFO FileParserTask.Program - Hello logging world!
+2020-03-20 11:16:47,894 [1] WARN FileParserTask.FileParserApp.Application - Ivalid task arguments
+2020-03-20 11:46:40,076 [1] WARN FileParserTask.FileParserApp.Application - Ivalid task arguments
+2020-03-20 11:50:21,602 [1] WARN FileParserTask.FileParserApp.Application - Can`t find file C:\Study\Курсы\SoftServe\TaskFileParser.tx.
+2020-03-20 11:52:11,421 [1] WARN FileParserTask.FileParserApp.Application - Ivalid task arguments
+2020-03-20 15:50:51,540 [1] INFO FileParserTask.Logic.Counter - Entered CountStringEnterance with hi

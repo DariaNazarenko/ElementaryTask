@@ -2,11 +2,15 @@
 using LuckyTicketsTask.UI;
 using ValidationLibrary;
 using System;
+using log4net;
+using System.Reflection;
 
 namespace LuckyTicketsTask.LuckyTicketApp
 {
     static class Application
     {
+        private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
         public static void Run(string[] args)
         {
             Helper.Help();
@@ -30,6 +34,7 @@ namespace LuckyTicketsTask.LuckyTicketApp
                         break;
                     default:
                         Console.WriteLine("Ivalid algorithm");
+                        log.Warn("Ivalid algorithm");
                         break;
                 }
 
@@ -37,6 +42,7 @@ namespace LuckyTicketsTask.LuckyTicketApp
             }
             else
             {
+                log.Error(new FormatException("Invalid numbers"));
                 throw new FormatException("Invalid numbers");
             }
         }

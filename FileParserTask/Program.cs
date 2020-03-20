@@ -1,23 +1,29 @@
-﻿using FileParserTask.Logic;
-using ValidationLibrary;
+﻿using FileParserTask.FileParserApp;
+using log4net;
+using LoggerLibrary;
 using System;
-using System.IO;
-using FileParserTask.FileParserApp;
+using System.Reflection;
 
 namespace FileParserTask
 {
     class Program
     {
-        static void Main(string[] args)
+		private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
+		static void Main(string[] args)
         {
+			Logger.Initialize();
+
 			try
 			{
 				Application.Run(args);
+				log.Info("Application was built");
 			}
 			catch (Exception e)
 			{
 
 				Console.WriteLine(e.Message);
+				log.Error(e.Message);
 			}
         }
     }

@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LoggerLibrary\LoggerLibrary.csproj" />
     <ProjectReference Include="..\ValidationLibrary\ValidationLibrary.csproj" />
   </ItemGroup>
 

@@ -1,0 +1,23 @@
+2020-03-20 18:27:00,368 [1] INFO SequenceTask.SequenceApp.Application - Squared sequence was built
+2020-03-20 18:27:00,378 [1] INFO SequenceTask.Program - Application was built.
+2020-03-20 18:27:41,312 [1] INFO SequenceTask.SequenceApp.Application - Squared sequence was built
+2020-03-20 18:27:41,322 [1] INFO SequenceTask.Program - Application was built.
+2020-03-20 18:28:12,394 [1] INFO SequenceTask.SequenceApp.Application - Squared sequence was built
+2020-03-20 18:28:12,404 [1] INFO SequenceTask.Program - Application was built.
+2020-03-20 18:28:59,854 [1] INFO SequenceTask.SequenceApp.Application - Fibonacci sequence was built
+2020-03-20 18:28:59,865 [1] INFO SequenceTask.Program - Application was built.
+2020-03-20 18:29:17,263 [1] ERROR SequenceTask.Program - Object reference not set to an instance of an object.
+2020-03-20 18:30:50,789 [1] ERROR SequenceTask.Program - Object reference not set to an instance of an object.
+2020-03-20 18:32:22,572 [1] ERROR SequenceTask.Program - Object reference not set to an instance of an object.
+2020-03-20 18:33:32,924 [1] ERROR SequenceTask.Program - Object reference not set to an instance of an object.
+2020-03-20 18:34:33,634 [1] ERROR SequenceTask.Program - Object reference not set to an instance of an object.
+2020-03-20 18:35:55,813 [1] ERROR SequenceTask.Program - Object reference not set to an instance of an object.
+2020-03-20 18:37:19,881 [1] ERROR SequenceTask.SequenceApp.Application - Invalid input string
+System.ArgumentException: Value does not fall within the expected range.
+2020-03-20 18:37:19,892 [1] ERROR SequenceTask.Program - Invalid input string
+2020-03-20 18:39:28,909 [1] ERROR SequenceTask.SequenceApp.Application - Invalid input string
+System.ArgumentException: Value does not fall within the expected range.
+2020-03-20 18:39:28,920 [1] ERROR SequenceTask.Program - Invalid input string
+2020-03-20 18:40:00,652 [1] ERROR SequenceTask.SequenceApp.Application - Invalid input string
+System.ArgumentException: Value does not fall within the expected range.
+2020-03-20 18:40:00,665 [1] ERROR SequenceTask.Program - Invalid input string

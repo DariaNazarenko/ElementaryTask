@@ -44,7 +44,7 @@ namespace ValidationLibrary
 
         public static string[] GetAppropriateStringArray(string inputString)
         {
-            RemoveSpaces(inputString);
+            inputString = RemoveSpaces(inputString);
 
             string[] StringArray = inputString.Split(',');
             

@@ -12,3 +12,6 @@ C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.
 C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\ValidationLibrary.dll
 C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\ValidationLibrary.pdb
 C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\obj\Debug\netcoreapp3.1\TriangleTask.csproj.CopyComplete
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\log4net.config
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\LoggerLibrary.dll
+C:\Study\Курсы\SoftServe\ElementaryTask\TriangleTask\bin\Debug\netcoreapp3.1\LoggerLibrary.pdb

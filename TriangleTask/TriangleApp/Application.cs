@@ -4,11 +4,15 @@ using ValidationLibrary;
 using TriangleTask.UI;
 using System.Linq;
 using System;
+using log4net;
+using System.Reflection;
 
 namespace TriangleTask.TriangleApp
 {
     static class Application
     {
+        private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
         public static void Run()
         {
             List<Triangle> t = new List<Triangle>();
@@ -30,6 +34,7 @@ namespace TriangleTask.TriangleApp
                 catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
+                    log.Warn(e.Message);
                     Helper.Help();
                 }
 

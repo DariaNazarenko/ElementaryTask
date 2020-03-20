@@ -16,7 +16,7 @@ namespace SequenceTask.Logic
         {
             ICollection<int> sequence = new List<int>();
             int sequentMember;
-            for (int i = 1; (sequentMember = i * i) <= sqrtNum; i++)
+            for (int i = 0; (sequentMember = i * i) <= sqrtNum; i++)
             {
                 sequence.Add(sequentMember);
             }

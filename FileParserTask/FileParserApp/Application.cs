@@ -1,12 +1,16 @@
 ﻿using FileParserTask.Logic;
 using ValidationLibrary;
 using FileParserTask.UI;
+using System.Reflection;
+using log4net;
 using System;
 
 namespace FileParserTask.FileParserApp
 {
     static class Application
     {
+        private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
         public static void Run(string[] args)
         {
             var path = @args[0];
@@ -32,13 +36,17 @@ namespace FileParserTask.FileParserApp
                             break;
                         }
                     default:
-                        Console.WriteLine("Ivalid task arguments");
-                        break;
+                        {
+                            Console.WriteLine("Ivalid task arguments");
+                            log.Warn("Ivalid task arguments");
+                            break;
+                        }      
                 }
             }
             else
             {
                 Console.WriteLine($"Can`t find file {path}.");
+                log.Warn($"Can`t find file {path}.");
             }
         }
     }

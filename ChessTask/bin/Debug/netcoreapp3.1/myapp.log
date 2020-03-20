@@ -1,0 +1,8 @@
+2020-03-20 17:50:01,580 [1] WARN ChessTask.ChessApp.Application - Invalid input string
+2020-03-20 18:05:27,757 [1] ERROR ChessTask.ChessApp.Application - System.ArgumentException: Invalid input string
+2020-03-20 18:05:27,771 [1] ERROR ChessTask.Program - Invalid input string
+2020-03-20 18:06:37,577 [1] ERROR ChessTask.ChessApp.Application - Value does not fall within the expected range.
+2020-03-20 18:06:37,586 [1] ERROR ChessTask.Program - Invalid input string
+2020-03-20 18:07:18,455 [1] ERROR ChessTask.ChessApp.Application - Value does not fall within the expected range.
+2020-03-20 18:07:18,465 [1] ERROR ChessTask.Program - Invalid input string!
+2020-03-20 18:13:17,058 [1] INFO ChessTask.ChessApp.Application - Input string was validated.

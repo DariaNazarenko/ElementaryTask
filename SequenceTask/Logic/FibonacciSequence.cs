@@ -3,12 +3,12 @@ using System.Collections.Generic;
 
 namespace SequenceTask.Logic
 {
-    class FibonachiSequence : ISequent
+    class FibonacciSequence : ISequent
     {
         private int start;
         private int end;
 
-        public FibonachiSequence(int start, int end)
+        public FibonacciSequence(int start, int end)
         {
             this.start = start;
             this.end = end;
