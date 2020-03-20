@@ -2,7 +2,7 @@
 
 namespace LuckyTicketsTask.Contracts
 {
-    interface IAlgorithm
+    interface ILucky
     {
         public bool IsLucky(Ticket ticket);
     }

@@ -3,9 +3,9 @@ using LuckyTicketsTask.Models;
 
 namespace LuckyTicketsTask.Logic
 {
-    class MoskowAlgorithm : IAlgorithm
+    class MoskowAlgorithm : ILucky
     {
-        private readonly int CountOfNumbers = 6;
+        private const int CountOfNumbers = 6;
 
         public bool IsLucky(Ticket ticket)
         {

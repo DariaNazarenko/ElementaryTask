@@ -3,7 +3,7 @@ using LuckyTicketsTask.Models;
 
 namespace LuckyTicketsTask.Logic
 {
-    class PiterAlgorithm : IAlgorithm
+    class PiterAlgorithm : ILucky
     {
         public bool IsLucky(Ticket ticket)
         {

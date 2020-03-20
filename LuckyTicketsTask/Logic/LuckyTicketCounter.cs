@@ -7,9 +7,9 @@ namespace LuckyTicketsTask.Logic
     {
         private int start;
         private int end;
-        private IAlgorithm algorithm;
+        private ILucky algorithm;
 
-        public LuckyTicketCounter(int start, int end, IAlgorithm algorithm)
+        public LuckyTicketCounter(int start, int end, ILucky algorithm)
         {
             this.start = start;
             this.end = end;

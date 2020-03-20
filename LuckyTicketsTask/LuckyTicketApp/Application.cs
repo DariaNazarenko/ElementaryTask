@@ -15,6 +15,7 @@ namespace LuckyTicketsTask.LuckyTicketApp
             var algorithm = inputStringArray[0];
             int startIndex;
             int endIndex;
+
             LuckyTicketCounter luckyTicketCount = null;
 
             if(int.TryParse(inputStringArray[1], out startIndex) && int.TryParse(inputStringArray[2], out endIndex) && startIndex <= 999999 && endIndex <= 999999)
@@ -31,6 +32,7 @@ namespace LuckyTicketsTask.LuckyTicketApp
                         Console.WriteLine("Ivalid algorithm");
                         break;
                 }
+
                 Console.WriteLine(luckyTicketCount.CountLuckyTickets());
             }
             else

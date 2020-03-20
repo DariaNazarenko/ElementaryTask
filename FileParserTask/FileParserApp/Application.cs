@@ -15,12 +15,14 @@ namespace FileParserTask.FileParserApp
                 Helper.Help();
                 var taskArgs = Console.ReadLine();
                 var taskArgsArray = Parser.GetAppropriateStringArray(taskArgs);
+
                 switch (taskArgsArray.Length)
                 {
                     case 1:
                         {
                             Counter counter = new Counter(path);
-                            Console.WriteLine(counter.CountStringEnterance(taskArgsArray[0]));
+                            var countStringEnterance = counter.CountStringEnterance(taskArgsArray[0]);
+                            Console.WriteLine(countStringEnterance);
                             break;
                         }
                     case 2:
