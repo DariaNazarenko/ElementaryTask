@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SequenceTask.Logic
 {
-    public class SqrtSequence : IGenerator
+    public class SqrtSequence : ISequenceGenerator
     {
         private int sqrtNum;
 

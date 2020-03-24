@@ -13,16 +13,18 @@ namespace SequenceTask.SequenceApp
     {
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         private LocalValidator localValidator;
-        private IGenerator sequence;
+        private ISequenceGenerator sequence;
+        private Parser parser;
 
         public Application()
         {
             localValidator = new LocalValidator();
+            parser = new Parser();
         }
 
         public void Run(string[] args)
         {
-            int[] intArgs = new Parser().GetIntegerArray(args);
+            int[] intArgs = parser.GetIntegerArray(args);
 
             if (intArgs != null && !localValidator.ContainsNegative(intArgs) && intArgs.Length == 2)
             {
@@ -36,7 +38,7 @@ namespace SequenceTask.SequenceApp
             }
             else
             {
-                log.Error("Invalid input string", new ArgumentException());
+
                 throw new ArgumentException("Invalid input string");
             }
 

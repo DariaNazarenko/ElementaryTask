@@ -35,3 +35,16 @@
 2020-03-23 17:48:04,038 [1] INFO ChessTask.Program - Application was built
 2020-03-23 17:49:42,750 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
 2020-03-23 17:49:42,758 [1] INFO ChessTask.Program - Application was built
+2020-03-24 15:36:45,296 [1] ERROR ChessTask.ChessApp.Application - Value does not fall within the expected range.
+2020-03-24 15:36:45,310 [1] ERROR ChessTask.Program - System.ArgumentException: Invalid input string!
+   at ChessTask.ChessApp.Application.Run(String[] args) in C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\ChessApp\Application.cs:line 38
+   at ChessTask.Program.Main(String[] args) in C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\Program.cs:line 19
+2020-03-24 15:37:36,718 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-24 15:37:36,726 [1] INFO ChessTask.Program - Application was built
+2020-03-24 15:40:31,296 [1] ERROR ChessTask.ChessApp.Application - Value does not fall within the expected range.
+2020-03-24 15:40:31,306 [1] ERROR ChessTask.Program - System.ArgumentException: Invalid input string!
+   at ChessTask.ChessApp.Application.Run(String[] args) in C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\ChessApp\Application.cs:line 38
+   at ChessTask.Program.Main(String[] args) in C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\Program.cs:line 19
+2020-03-24 15:46:36,573 [1] ERROR ChessTask.Program - System.ArgumentException: Invalid input string!
+   at ChessTask.ChessApp.Application.Run(String[] args) in C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\ChessApp\Application.cs:line 37
+   at ChessTask.Program.Main(String[] args) in C:\Study\Курсы\SoftServe\ElementaryTask\ChessTask\Program.cs:line 19

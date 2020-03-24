@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace SequenceTask.Logic
 {
-    public class FibonacciSequence : IGenerator
+    public class FibonacciSequence : ISequenceGenerator
     {
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
         private int start;
@@ -48,7 +48,6 @@ namespace SequenceTask.Logic
             }
             else
             {
-                log.Error("Invalid input arguments", new ArgumentException());
                 throw new ArgumentException("Invalid arguments");
             }
         }

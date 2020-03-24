@@ -2,7 +2,7 @@
 
 namespace SequenceTask.Contracts
 {
-    interface IGenerator
+    interface ISequenceGenerator
     {
         IEnumerable<int> GetSequence();
     }

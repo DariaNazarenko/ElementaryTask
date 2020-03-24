@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace LoggerLibrary
 {
-    public class Logger
+    public static class Logger
     {
         public static void Initialize()
         {

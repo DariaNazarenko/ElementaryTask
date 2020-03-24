@@ -23,7 +23,7 @@ namespace SequenceTask
             {
 
                 Console.WriteLine(e.Message);
-                log.Error(e.Message);
+                log.Error(e);
             }
             
         }

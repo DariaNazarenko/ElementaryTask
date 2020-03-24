@@ -32,7 +32,6 @@ namespace ChessTask.ChessApp
             }
             else
             {
-                log.Error(new ArgumentException().Message);
                 throw new ArgumentException("Invalid input string!");
             }
         }

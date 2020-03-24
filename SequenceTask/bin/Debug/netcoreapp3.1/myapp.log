@@ -96,3 +96,7 @@ System.ArgumentException: Value does not fall within the expected range.
 2020-03-23 18:08:32,121 [1] INFO SequenceTask.Program - Application was built.
 2020-03-23 18:09:33,855 [1] INFO SequenceTask.SequenceApp.Application - Squared sequence was initialized
 2020-03-23 18:09:33,866 [1] INFO SequenceTask.Program - Application was built.
+2020-03-24 11:51:26,216 [1] INFO SequenceTask.SequenceApp.Application - Squared sequence was initialized
+2020-03-24 11:51:26,236 [1] INFO SequenceTask.Program - Application was built.
+2020-03-24 12:11:53,393 [1] INFO SequenceTask.SequenceApp.Application - Squared sequence was initialized
+2020-03-24 12:11:53,407 [1] INFO SequenceTask.Program - Application was built.
