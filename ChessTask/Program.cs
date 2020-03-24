@@ -6,7 +6,7 @@ using System.Reflection;
 
 namespace ChessTask
 {
-    class Program
+    public class Program
     {
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
@@ -16,7 +16,7 @@ namespace ChessTask
 
             try
             {
-                Application.Run(args);
+                new Application().Run(args);
                 log.Info("Application was built");
             }
             catch (Exception e)

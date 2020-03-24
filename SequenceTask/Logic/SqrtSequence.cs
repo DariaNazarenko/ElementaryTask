@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SequenceTask.Logic
 {
-    class SqrtSequence : ISequent
+    public class SqrtSequence : IGenerator
     {
         private int sqrtNum;
 
@@ -12,13 +12,14 @@ namespace SequenceTask.Logic
             sqrtNum = num;
         }
 
-        public IEnumerable<int> Algorithm()
+        public IEnumerable<int> GetSequence()
         {
-            ICollection<int> sequence = new List<int>();
+            List<int> sequence = new List<int>();
             int sequentMember;
+
             for (int i = 0; (sequentMember = i * i) <= sqrtNum; i++)
             {
-                sequence.Add(sequentMember);
+                sequence.Add(i);
             }
 
             return sequence;

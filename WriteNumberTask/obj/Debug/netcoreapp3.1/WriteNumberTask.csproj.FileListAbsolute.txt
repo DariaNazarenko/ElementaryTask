@@ -15,3 +15,4 @@ C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\obj\Debug\netcoreap
 C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\log4net.config
 C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\LoggerLibrary.dll
 C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\LoggerLibrary.pdb
+C:\Study\Курсы\SoftServe\ElementaryTask\WriteNumberTask\bin\Debug\netcoreapp3.1\log4net.dll

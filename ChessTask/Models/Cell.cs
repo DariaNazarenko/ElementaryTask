@@ -1,7 +1,7 @@
 ﻿
 namespace ChessTask.Models
 {
-    abstract class Cell
+   abstract class Cell
     {
         public char Value { get; private set; }
 

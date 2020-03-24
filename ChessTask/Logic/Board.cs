@@ -3,7 +3,7 @@ using ChessTask.Models;
 
 namespace ChessTask.Logic
 {
-    class Board : IDrawable
+    public class Board : IDrawable
     {
         public int Width { get; private set; }
         public int Height { get; private set; }
@@ -16,8 +16,8 @@ namespace ChessTask.Logic
 
         public Board(int width, int height)
         {
-            this.Width = width;
-            this.Height = height;
+            Width = width;
+            Height = height;
             board = SetBoard();
         }
 

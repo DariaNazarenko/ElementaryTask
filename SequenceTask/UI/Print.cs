@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace SequenceTask.UI
 {
-    class Print
+    static class Print
     {
         public static void PrintSequence(IEnumerable<int> sequence)
         {

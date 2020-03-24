@@ -1,15 +1,29 @@
-﻿using System;
-using System.Linq;
-using System.Text.RegularExpressions;
+﻿using System.Text.RegularExpressions;
 
 namespace ValidationLibrary
 {
     public static class Validator
     {
-        public static bool ContainsNotNumbers(string[] inputArgs)
+        public static bool ContainsIntNumbers(string[] inputArgs)
         {
-            const string NotNumberPattern = @"\D+";
-            Regex regex = new Regex(NotNumberPattern);
+            const string onlyNumberPattern = @"^-?\d+$";
+            Regex regex = new Regex(onlyNumberPattern);
+
+            foreach (var item in inputArgs)
+            {
+                if (!regex.IsMatch(item))
+                {
+                    return false;
+                }
+            }
+
+            return true;
+        }
+
+        public static bool ContainsDoubleNumbers(string[] inputArgs)
+        {
+            const string doublePattern = @"^-?\d+\,\d+$";
+            Regex regex = new Regex(doublePattern);
 
             foreach (var item in inputArgs)
             {
@@ -22,14 +36,27 @@ namespace ValidationLibrary
             return false;
         }
 
-        public static bool ContainsNotNumbers(string inputArgs)
+        public static bool ContainsIntNumbers(string inputArgs)
         {
-            const string NotNumberPattern = @"\D+";
-            Regex regex = new Regex(NotNumberPattern);
+            const string onlyNumberPattern = @"^-?\d+$";
+            Regex regex = new Regex(onlyNumberPattern);
+
+            if (!regex.IsMatch(inputArgs))
+            {
+
+                return false;
+            }
+
+            return true;
+        }
+
+        public static bool ContainsDoubleNumbers(string inputArgs)
+        {
+            const string doublePattern = @"^-?\d+\,\d+$";
+            Regex regex = new Regex(doublePattern);
 
             if (regex.IsMatch(inputArgs))
             {
-
                 return true;
             }
 

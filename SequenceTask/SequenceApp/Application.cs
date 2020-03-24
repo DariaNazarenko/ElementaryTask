@@ -1,31 +1,38 @@
-﻿using SequenceTask.Models;
+﻿using SequenceTask.Validation;
+using SequenceTask.Contracts;
 using SequenceTask.Logic;
 using ValidationLibrary;
+using System.Reflection;
 using SequenceTask.UI;
 using System;
 using log4net;
-using System.Reflection;
 
 namespace SequenceTask.SequenceApp
 {
-    static class Application
+    public class Application
     {
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+        private LocalValidator localValidator;
+        private IGenerator sequence;
 
-        public static void Run(string[] args)
+        public Application()
+        {
+            localValidator = new LocalValidator();
+        }
+
+        public void Run(string[] args)
         {
             int[] intArgs = new Parser().GetIntegerArray(args);
-            Sequence sequence = null;
 
-            if (intArgs!=null && intArgs.Length == 2)
+            if (intArgs != null && !localValidator.ContainsNegative(intArgs) && intArgs.Length == 2)
             {
-                sequence = new Sequence(new FibonacciSequence(intArgs[0], intArgs[1]));
-                log.Info("Fibonacci sequence was built");
+                sequence = new FibonacciSequence(intArgs[0], intArgs[1]);
+                log.Info("Fibonacci sequence was initialized");
             }
-            else if (intArgs != null &&  intArgs.Length == 1)
+            else if (intArgs != null && !localValidator.ContainsNegative(intArgs) && intArgs.Length == 1)
             {
-                sequence = new Sequence(new SqrtSequence(intArgs[0]));
-                log.Info("Squared sequence was built");
+                sequence = new SqrtSequence(intArgs[0]);
+                log.Info("Squared sequence was initialized");
             }
             else
             {
@@ -33,7 +40,7 @@ namespace SequenceTask.SequenceApp
                 throw new ArgumentException("Invalid input string");
             }
 
-            var res = sequence.Algorithm();
+            var res = sequence.GetSequence();
             Print.PrintSequence(res);
         }
     }

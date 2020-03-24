@@ -4,18 +4,27 @@ using ChessTask.UI;
 using System;
 using log4net;
 using System.Reflection;
+using ChessTask.Validation;
 
 namespace ChessTask.ChessApp
 {
-    static class Application
+    public class Application
     {
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+        private Parser parser;
+        private LocalValidator localValidator;
 
-        public static void Run(string[] args)
+        public Application()
         {
-            var array = new Parser().GetIntegerArray(args);
+            parser = new Parser();
+            localValidator = new LocalValidator();
+        }
 
-            if (array != null && array.Length == 2)
+        public void Run(string[] args)
+        {
+            var array = parser.GetIntegerArray(args);
+
+            if (localValidator.CheckParsedArguments(array))
             {
                 Board board = new Board(array[0], array[1]);
                 Print.PrintBoard(board);
@@ -24,7 +33,7 @@ namespace ChessTask.ChessApp
             else
             {
                 log.Error(new ArgumentException().Message);
-                throw new ArgumentException("Invalid input string!");                
+                throw new ArgumentException("Invalid input string!");
             }
         }
     }

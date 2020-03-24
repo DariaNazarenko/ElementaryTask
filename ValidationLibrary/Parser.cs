@@ -10,7 +10,7 @@ namespace ValidationLibrary
         {
             int[] intArray = null;
 
-            if (!Validator.ContainsNotNumbers(inputArgs))
+            if (Validator.ContainsIntNumbers(inputArgs) && !Validator.ContainsDoubleNumbers(inputArgs))
             {
                 intArray = inputArgs.Select(s => Int32.Parse(s)).ToArray();
             }
@@ -22,7 +22,7 @@ namespace ValidationLibrary
         {
             double[] doubleArray = null;
 
-            if (!Validator.ContainsNotNumbers(inputArgs))
+            if (Validator.ContainsIntNumbers(inputArgs) || Validator.ContainsDoubleNumbers(inputArgs))
             {
                 doubleArray = inputArgs.Select(s => double.Parse(s)).ToArray();
             }
@@ -34,7 +34,7 @@ namespace ValidationLibrary
         {
             int integerValue = 0;
 
-            if (!Validator.ContainsNotNumbers(inputArgs))
+            if (Validator.ContainsIntNumbers(inputArgs) && !Validator.ContainsDoubleNumbers(inputArgs))
             {
                 integerValue = Int32.Parse(inputArgs);
             }
@@ -47,7 +47,7 @@ namespace ValidationLibrary
             inputString = RemoveSpaces(inputString);
 
             string[] StringArray = inputString.Split(',');
-            
+
             return StringArray;
         }
 

@@ -15,16 +15,17 @@ namespace TriangleTask.TriangleApp
 
         public static void Run()
         {
+            var parser = new Parser();
             List<Triangle> t = new List<Triangle>();
             string answer;
 
             do
             {
                 var triangle = Console.ReadLine();
-                var triangleArray = new Parser().GetAppropriateStringArray(triangle);
+                var triangleArray = parser.GetAppropriateStringArray(triangle);
                 for (int i = 0; i < triangleArray.Length; i++)
                 {
-                    triangleArray[i] = new Parser().ChangeDots(triangleArray[i]);
+                    triangleArray[i] = parser.ChangeDots(triangleArray[i]);
                 }
 
                 try
@@ -40,7 +41,7 @@ namespace TriangleTask.TriangleApp
 
                 Console.WriteLine("Want more?");
                 answer = Console.ReadLine().ToLower();
-                answer = Parser.RemoveSpaces(answer);
+                answer = parser.RemoveSpaces(answer);
             } while (string.Equals(answer, "y"));
 
             var orderedTriangles = t.OrderByDescending(el => el.Area);

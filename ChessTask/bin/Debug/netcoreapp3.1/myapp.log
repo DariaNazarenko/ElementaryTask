@@ -6,3 +6,32 @@
 2020-03-20 18:07:18,455 [1] ERROR ChessTask.ChessApp.Application - Value does not fall within the expected range.
 2020-03-20 18:07:18,465 [1] ERROR ChessTask.Program - Invalid input string!
 2020-03-20 18:13:17,058 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-21 11:51:27,888 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-21 11:51:27,896 [1] INFO ChessTask.Program - Application was built
+2020-03-21 11:51:56,028 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-21 11:51:56,037 [1] INFO ChessTask.Program - Application was built
+2020-03-21 12:33:17,265 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-21 12:33:17,273 [1] INFO ChessTask.Program - Application was built
+2020-03-21 12:47:23,214 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-21 12:47:23,224 [1] INFO ChessTask.Program - Application was built
+2020-03-21 13:00:16,900 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-21 13:00:16,909 [1] INFO ChessTask.Program - Application was built
+2020-03-21 13:47:40,546 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-21 13:47:40,557 [1] INFO ChessTask.Program - Application was built
+2020-03-21 17:35:40,367 [1] ERROR ChessTask.ChessApp.Application - Value does not fall within the expected range.
+2020-03-21 17:35:40,377 [1] ERROR ChessTask.Program - Invalid input string!
+2020-03-22 14:35:34,247 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-22 14:35:34,270 [1] INFO ChessTask.Program - Application was built
+2020-03-22 14:35:45,519 [1] ERROR ChessTask.Program - Object reference not set to an instance of an object.
+2020-03-22 14:37:22,928 [1] ERROR ChessTask.Program - Object reference not set to an instance of an object.
+2020-03-22 14:54:06,375 [1] ERROR ChessTask.ChessApp.Application - Value does not fall within the expected range.
+2020-03-22 14:54:06,411 [1] ERROR ChessTask.Program - Invalid input string!
+2020-03-22 14:55:38,380 [1] ERROR ChessTask.ChessApp.Application - Value does not fall within the expected range.
+2020-03-22 14:55:38,392 [1] ERROR ChessTask.Program - Invalid input string!
+2020-03-22 14:57:26,283 [1] ERROR ChessTask.ChessApp.Application - Value does not fall within the expected range.
+2020-03-22 18:43:29,186 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-22 18:43:29,197 [1] INFO ChessTask.Program - Application was built
+2020-03-23 17:48:04,030 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-23 17:48:04,038 [1] INFO ChessTask.Program - Application was built
+2020-03-23 17:49:42,750 [1] INFO ChessTask.ChessApp.Application - Input string was validated.
+2020-03-23 17:49:42,758 [1] INFO ChessTask.Program - Application was built

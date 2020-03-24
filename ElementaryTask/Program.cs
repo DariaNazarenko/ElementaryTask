@@ -15,7 +15,7 @@ namespace EnvelopeTask
             Logger.Initialize();
             try
             {
-                Application.Run(args);
+                new Application().Run(args);
                 log.Info("Application was built");
             }
             catch (Exception e)

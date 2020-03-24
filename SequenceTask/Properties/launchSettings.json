@@ -2,7 +2,7 @@
   "profiles": {
     "SequenceTask": {
       "commandName": "Project",
-      "commandLineArgs": "1 8 "
+      "commandLineArgs": "25"
     }
   }
 }

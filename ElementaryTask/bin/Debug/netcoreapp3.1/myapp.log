@@ -1,2 +1,18 @@
 2020-03-20 18:57:11,386 [1] INFO EnvelopeTask.EnvelopeApp.Application - Envelopes were checked
 2020-03-20 18:57:11,395 [1] INFO EnvelopeTask.Program - Application was built
+2020-03-21 17:31:47,422 [1] ERROR EnvelopeTask.EnvelopeApp.Application - Invalid input string
+2020-03-21 17:31:47,430 [1] INFO EnvelopeTask.Program - Application was built
+2020-03-21 17:37:55,514 [1] INFO EnvelopeTask.EnvelopeApp.Application - Envelopes were checked
+2020-03-21 17:37:55,523 [1] INFO EnvelopeTask.Program - Application was built
+2020-03-21 17:38:17,384 [1] ERROR EnvelopeTask.Program - Input string was not in a correct format.
+2020-03-21 17:38:44,131 [1] INFO EnvelopeTask.EnvelopeApp.Application - Envelopes were checked
+2020-03-21 17:38:44,140 [1] INFO EnvelopeTask.Program - Application was built
+2020-03-21 17:40:51,404 [1] INFO EnvelopeTask.EnvelopeApp.Application - Envelopes were checked
+2020-03-21 17:40:51,412 [1] INFO EnvelopeTask.Program - Application was built
+2020-03-22 14:09:29,009 [1] ERROR EnvelopeTask.Program - Input string was not in a correct format.
+2020-03-22 14:10:19,564 [1] ERROR EnvelopeTask.Program - Input string was not in a correct format.
+2020-03-22 14:11:14,386 [1] ERROR EnvelopeTask.Program - Input string was not in a correct format.
+2020-03-22 17:12:21,749 [1] INFO EnvelopeTask.EnvelopeApp.Application - Envelopes were checked
+2020-03-22 17:12:21,757 [1] INFO EnvelopeTask.Program - Application was built
+2020-03-22 17:12:30,565 [1] ERROR EnvelopeTask.EnvelopeApp.Application - Invalid input string
+2020-03-22 17:12:30,574 [1] INFO EnvelopeTask.Program - Application was built
