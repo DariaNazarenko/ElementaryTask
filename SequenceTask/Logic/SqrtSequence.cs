@@ -12,7 +12,7 @@ namespace SequenceTask.Logic
             sqrtNum = num;
         }
 
-        public IEnumerable<int> GetSequence()
+        public List<int> GetSequence()
         {
             List<int> sequence = new List<int>();
             int sequentMember;

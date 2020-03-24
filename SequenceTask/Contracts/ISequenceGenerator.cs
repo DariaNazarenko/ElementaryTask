@@ -4,6 +4,6 @@ namespace SequenceTask.Contracts
 {
     interface ISequenceGenerator
     {
-        IEnumerable<int> GetSequence();
+        List<int> GetSequence();
     }
 }

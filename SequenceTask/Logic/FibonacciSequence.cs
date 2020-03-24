@@ -18,9 +18,9 @@ namespace SequenceTask.Logic
             this.end = end;
         }
 
-        public IEnumerable<int> GetSequence()
+        public List<int> GetSequence()
         {
-            ICollection<int> sequence = new List<int>();
+            List<int> sequence = new List<int>();
             if (end != 0)
             {
                 int j;

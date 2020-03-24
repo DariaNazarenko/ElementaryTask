@@ -5,12 +5,20 @@ namespace SequenceTask.UI
 {
     static class Print
     {
-        public static void PrintSequence(IEnumerable<int> sequence)
+        public static void PrintSequence(List<int> sequence)
         {
-            foreach (var item in sequence)
+            for (int i = 0; i < sequence.Count; i++)
             {
-                Console.Write($"{item}  ");
+                if (i != sequence.Count - 1)
+                {
+                    Console.Write($"{sequence[i]}, ");
+                }
+                else
+                {
+                    Console.Write($"{sequence[i]} ");
+                }
             }
+
             Console.WriteLine();
         }
     }
